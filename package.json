@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/syncidem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sync lightweight idem statistics from stdin samples.",
+  "bin": {
+    "syncidem": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/syncidem.git"
+  },
+  "homepage": "https://theworker02.github.io/syncidem/",
+  "keywords": [
+    "sync",
+    "idem",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
